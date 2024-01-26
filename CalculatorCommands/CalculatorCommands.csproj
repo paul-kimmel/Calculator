@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECEC285B-390A-4C12-A727-421887A18A6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CalculatorCommands</RootNamespace>
+    <AssemblyName>CalculatorCommands</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionCommand.cs" />
+    <Compile Include="BackspaceCommand.cs" />
+    <Compile Include="BinaryOperationCommand.cs" />
+    <Compile Include="BinaryOperatorCommand.cs" />
+    <Compile Include="ChangeSignCommand.cs" />
+    <Compile Include="ClearCommand.cs" />
+    <Compile Include="ClearEntryCommand.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="ConstantCommand.cs" />
+    <Compile Include="CubeCommand.cs" />
+    <Compile Include="DecimalCommand.cs" />
+    <Compile Include="DigitCommand.cs" />
+    <Compile Include="DivisionCommand.cs" />
+    <Compile Include="ExponentCommand.cs" />
+    <Compile Include="FactorialCommand.cs" />
+    <Compile Include="IExpressionContainer.cs" />
+    <Compile Include="InversionCommand.cs" />
+    <Compile Include="MathExpression.cs" />
+    <Compile Include="MultiplicationCommand.cs" />
+    <Compile Include="NopCommand.cs" />
+    <Compile Include="OperandCommand.cs" />
+    <Compile Include="OperationCommand.cs" />
+    <Compile Include="OperatorCommand.cs" />
+    <Compile Include="PercentageCommand.cs" />
+    <Compile Include="PiCommand.cs" />
+    <Compile Include="ProcessSelectionCommand.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquareCommand.cs" />
+    <Compile Include="SquareRootCommand.cs" />
+    <Compile Include="SubtractionCommand.cs" />
+    <Compile Include="UnaryOperationCommand.cs" />
+    <Compile Include="UnaryOperatorCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculatorEngine\CalculatorEngine.csproj">
+      <Project>{AC442F35-5791-4406-B9A0-D3361B3DE69F}</Project>
+      <Name>CalculatorEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tools\Tools.csproj">
+      <Project>{019D666A-7146-4A57-9BA4-FE429906B0D0}</Project>
+      <Name>Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

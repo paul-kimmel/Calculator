@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CalculatorCommands.AdditionCommand" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>AdditionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.BackspaceCommand" Collapsed="true">
+    <Position X="27.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>BackspaceCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.BinaryOperationCommand" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BinaryOperationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.BinaryOperatorCommand" Collapsed="true">
+    <Position X="23" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BinaryOperatorCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.ChangeSignCommand" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ChangeSignCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.ClearCommand" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ClearCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.ClearEntryCommand" Collapsed="true">
+    <Position X="29.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ClearEntryCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.Command" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAiAEgBAAIAAAEAgDABAAAEBQAAAAvAg=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.DecimalCommand" Collapsed="true">
+    <Position X="32" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DecimalCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.DigitCommand" Collapsed="true">
+    <Position X="36.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DigitCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.DivisionCommand" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DivisionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.InversionCommand" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>InversionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.MultiplicationCommand" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>MultiplicationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.NopCommand" Collapsed="true">
+    <Position X="34.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NopCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.OperandCommand" Collapsed="true">
+    <Position X="30.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperandCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.OperationCommand" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.OperatorCommand" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperatorCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.PercentageCommand" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>PercentageCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.ProcessSelectionCommand" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProcessSelectionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.SquareRootCommand" Collapsed="true">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>SquareRootCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.SubtractionCommand" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>SubtractionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.UnaryOperationCommand" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnaryOperationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorCommands.UnaryOperatorCommand" Collapsed="true">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnaryOperatorCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

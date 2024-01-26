@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CalculatorEngine.Add" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Add.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.BinaryOperator" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>BinaryOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Divide" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Divide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Function" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAQAAFAAAAAAAAABAAAAAQCAAAAAAABEI=</HashCode>
+      <FileName>Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Inversion" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAABAA=</HashCode>
+      <FileName>Inversion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.MathText" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEAAAAgAAAACAAAIIAAQAAKAAAAAUAAABAAAEEA=</HashCode>
+      <FileName>MathText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Multiply" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Multiply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Operand" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEYAUAAAAAAAQAAAAAABAAAAAABAA=</HashCode>
+      <FileName>Operand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Operator" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAABAA=</HashCode>
+      <FileName>Operator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.SquareRoot" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>SquareRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Subtract" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Subtract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.Token" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgQAAEAAIAAAQCAAAAAEBAAAAAAAAABAA=</HashCode>
+      <FileName>Token.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorEngine.UnaryOperator" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>UnaryOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
