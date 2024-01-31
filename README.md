@@ -6,4 +6,4 @@
 - History
 - Uses Reverse Polish Notation and Shunting Yard Algorithm
 
-![calculator](https://github.com/paul-kimmel/Calculator/assets/105062328/874a9507-9201-4969-aa7d-0676a49e4243)
+![calculator](https://github.com/paul-kimmel/Calculator/assets/105062328/adf9a2d1-1129-4466-8d78-e900391fbf3f)
