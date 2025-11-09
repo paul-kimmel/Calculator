@@ -1,7 +1,7 @@
-## PEMDAS Calculatr with Reverse Polish Notation (Shunting Yard)
+## PEMDAS Calculator with Reverse Polish Notation (Shunting Yard Algorithm)
 
 ### Calculator Features
-- PEMDAS (orer of operations calculator)
+- PEMDAS (order of operations calculator)
 - Windows Forms
 - History
 - Uses Reverse Polish Notation and Shunting Yard Algorithm
